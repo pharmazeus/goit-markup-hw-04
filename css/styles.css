@@ -230,7 +230,8 @@ color:#434455 ;
     
   }
   .benefits-item {
-  width: calc(100%-72/4); 
+  width: calc(100%-72/4);
+
  }
  .last-benefit-item {
   margin-right: 0;
