@@ -172,7 +172,10 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   rgba(46, 47, 66, 0.7)
 	),
 	url(/images/people-office.jpg);
-  width: 100%;
+  max-width: 1440px;
+  background-position: center;
+  background-repeat: no-repeat; 
+
       }
       
 
@@ -325,20 +328,20 @@ margin-bottom: 8px;
 }
 .team-icon-list {
   display: flex;
-  gap: 20px;
+  gap: 24px;
   justify-content: center;
   align-items: center;
 }
 .social-list-icon {
 stroke: none;
-fill: none;
+fill: #f4f4fd;
 }
 .icon-link {
   display: flex;
   background-color: #4d5ae5;
   width: 40px;
   height: 40px;
-  border-radius: 50px;
+  border-radius: 50%;
   justify-content: center;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -432,6 +435,7 @@ fill: none;
 /*---------------Footer Section-----*/
 .footer-container{
   display: flex;
+  align-items: baseline;
 }
 .logo-plus-text-container {
 margin-right: 120px;
@@ -454,6 +458,8 @@ max-width: 264px;
 }
 .middle-text {
   margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .footer-logo {
   display: flex;
@@ -470,5 +476,7 @@ max-width: 264px;
 .ilink-footer:focus {
 background-color: #31d0aa;
 }
-
+.foot-icon-list {
+  gap: 16px;
+}
 /*---------------Footer END Section------*/
