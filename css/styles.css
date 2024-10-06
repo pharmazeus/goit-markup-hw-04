@@ -46,6 +46,9 @@ font-family: "Roboto", sans-serif; */
         clip: rect(0 0 0 0);
         overflow: hidden;
       }
+      input {
+        font-family: inherit;
+      }
         
     /*----------COMMON----------*/
     .container {
@@ -177,9 +180,6 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;       
 }
- 
-      
-
 .main-title {
     max-width: 496px;
     font-weight: 700;
